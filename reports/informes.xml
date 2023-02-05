@@ -1,0 +1,30 @@
+<odoo>
+    <data>
+        <report
+                string="Imprimir ficha del alumno"
+                id="fctpablo_alumnos_report"
+                model="fctpablo.alumnos"
+                report_type="qweb-pdf"
+                name="fctpablo.report_ficha_alumnos"
+                print_report_name="(object.name)"/>
+
+        <report
+                string="Previsualizar ficha del alumno"
+                id="fctpablo_alumnos_report_preview"
+                model="fctpablo.alumnos"
+                report_type="qweb-html"
+                name="fctpablo.report_ficha_alumnos"
+                print_report_name="(object.name)"/>
+
+        <!--Ficha que imprime todos los alumnos-->
+        <!--
+        <record id="action_report_imprimir_fichas" model="ir.actions.report">
+            <field mame="name">Imprimir todos los alumnos</field>
+            <field name="model">fctpablo.alumnos</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">fctpablo.report_imprimir_fichas</field>
+            <field name="binding_model_id" ref="model_fctpablo_alumnos"/>
+            <field name="binding_type">report</field>
+        </record>-->
+    </data>
+</odoo>

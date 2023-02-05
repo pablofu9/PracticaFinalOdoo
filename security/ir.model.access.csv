@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+fctpablo.coordinadores,fctpablo.coordinadores,model_fctpablo_alumnos,fctpablo_coordinadores_group,1,1,1,1
+fctpablo.coordinadores1,fctpablo.coordinadores1,model_fctpablo_empresa,fctpablo_coordinadores_group,1,1,1,1
+fctpablo.profesores,fctpablo.profesores,model_fctpablo_alumnos,fctpablo_profesores_group,1,1,1,0
+fctpablo.profesores1,fctpablo.profesores1,model_fctpablo_alumnos,fctpablo_profesores_group,1,0,0,0
